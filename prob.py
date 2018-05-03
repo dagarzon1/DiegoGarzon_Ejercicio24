@@ -11,9 +11,9 @@ def dist_int(x,l):
 
 def p_lamda(l):
     if(l<100):
-        return 1
+        return 0.99
     if(l>100):
-        return 0
+        return 0.01
 
 def p_dat_lam(x,l):
     N=dist_int(20.0,l)-dist_int(1.0,l)
